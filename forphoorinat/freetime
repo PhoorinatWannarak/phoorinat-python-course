@@ -1,0 +1,26 @@
+income = int(input("กรอกเงินได้สุทธิ : "))
+tax_total = 0
+Tax_rate = [(0, 0.00, 150000), (150001, 0.05, 300000),
+            (300001, 0.10, 500000), (500001, 0.15, 750000),
+            (750001, 0.20, 1000000), (1000001, 0.25, 2000000),
+            (2000001, 0.30, 5000000), (5000001, 0.35, None)]
+print("รายละเอียดภาษี")
+for min, rate, max in Tax_rate:
+    if max is None or income > max:
+        if max is None:
+            tax = rate * (income-(min-1))
+            print(min,"-",income,tax,"บาท")
+        else:
+            tax = rate * (max-(min-1))
+            print(min,"-",max,tax,"บาท")
+        tax_total += tax
+    elif income <= max:
+        tax = rate * (income-(min-1))
+        tax_total += tax
+        print(min,"-",income,tax,"บาท")
+        break
+    
+
+print("ภาษีรวม   ",tax_total,"บาท")
+print("รายได้หลังหักภาษี    ",income - tax_total,"บาท")
+print("Effective Tax Rate = 10.00%")
