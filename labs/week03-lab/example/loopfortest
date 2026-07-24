@@ -1,0 +1,32 @@
+# หาเลขคู่และคี่
+print("แยกเลขคู่-คี่:")
+for num in range(1, 11):
+    if num % 2 == 0:
+        print(f"{num} เป็นเลขคู่")
+    else:
+        print(f"{num} เป็นเลขคี่")
+
+print("\nDemo เกมทายตัวเลข (จำลอง):")
+import random
+secret_number = 7  # ใช้เลขตายตัวเพื่อ demo
+guesses = [5, 8, 7]  # จำลองการทาย
+attempts = 0
+max_attempts = 3
+
+print(f"เลขลับคือ: {secret_number}")
+for guess in guesses:
+    attempts += 1
+    print(f"ทายครั้งที่ {attempts}: {guess}")
+    
+    if guess == secret_number:
+        print("🎉 ถูกต้อง!")
+        break
+    elif guess < secret_number:
+        print("น้อยไป")
+    else:
+        print("มากไป")
+    
+    if attempts == max_attempts:
+        print(f"หมดโอกาส! คำตอบคือ {secret_number}")
+
+print("=" * 50)
