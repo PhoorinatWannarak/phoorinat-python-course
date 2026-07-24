@@ -12,11 +12,18 @@ Show the calculation formula used
 """
 
 choice = input("choose converts between 1.Thai Baht (THB) and 2.US Dollars (USD) : ")
-amount = input("enter your amount :")
+
 if choice == "1":
     amount = float(input("Enter your THB :"))
     result = amount / 35.5
+    print(f"{amount} THB / 35.5 = {result} USD")
 
-    result = ()
+elif choice == "2":
+    amount = float(input("Enter your USD :"))
+    result = amount * 35.5
+    print(f"{amount} USD * 35.5 = {result} THB")
+
+else:
+    print("Please enter 1 or 2 kub")    
 
   
