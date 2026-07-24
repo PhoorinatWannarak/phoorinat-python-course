@@ -24,6 +24,6 @@ elif choice == "2":
     print(f"{amount} USD * 35.5 = {result} THB")
 
 else:
-    print("Please enter 1 or 2 kub")    
+    print("Please enter 1 or 2 ")    
 
   
