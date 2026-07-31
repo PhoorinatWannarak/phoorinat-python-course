@@ -13,17 +13,17 @@ Show the calculation formula used
 
 choice = input("choose converts between 1.Thai Baht (THB) and 2.US Dollars (USD) : ")
 
-if choice == "1":
-    amount = float(input("Enter your THB :"))
+if choice == "1" :
+    amount = float(input("Enter THB"))
     result = amount / 35.5
-    print(f"{amount} THB / 35.5 = {result} USD")
 
-elif choice == "2":
-    amount = float(input("Enter your USD :"))
+    print(f"{amount} THB / 35.5 = {result:.2f} USD")
+
+elif choice == "2" :
+    amount = float(input("ENter amount USD: "))
     result = amount * 35.5
-    print(f"{amount} USD * 35.5 = {result} THB")
 
-else:
-    print("Please enter 1 or 2 ")    
 
-  
+    print(f"{amount} USD * 35.5 = {result:.2f} THB ")
+
+    
