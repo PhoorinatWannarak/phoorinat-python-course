@@ -117,6 +117,13 @@ result = multiply(4, 5) + square(3)
 print(f"multiply(4, 5) + square(3) = {multiply(4, 5)} + {square(3)} = {result}")
 print()
 
+"""
+# จงหาผลรันโปรแกรมใน example 3: ด้านบน
+Using return values in expressions:
+multiply(4, 5) + square(3) = 20 + 9 = 29
+
+"""
+
 # =============================================================================
 # PART 4: DEFAULT PARAMETERS
 # =============================================================================

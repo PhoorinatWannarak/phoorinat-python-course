@@ -1,0 +1,11 @@
+def create_user_profile(username, age=18, premium=False):
+
+    if premium == True:
+        premium = ("premium_User")
+    else :
+        premium = ("standard_User")
+    return f"{username} (age: {age}) - {premium}"
+
+print(create_user_profile("phoorinat",19 ))
+print(create_user_profile("ratchatawit"))
+print(create_user_profile("peter parker", 26 ,True))
