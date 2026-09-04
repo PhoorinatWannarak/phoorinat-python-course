@@ -1,4 +1,4 @@
-# write output 
+# write output and read
 
 # Part2
 Ex1
