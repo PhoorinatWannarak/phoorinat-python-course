@@ -63,3 +63,12 @@ def get_range_hint(number, current_min=1, current_max=100):
 def get_thefirst_digit_hint(number):
     # Retun the first digit of the number
     pass
+
+
+units = 220
+cost = (2.50 * 50) + (3.00 * 50) + (100 * 3.50) + (20 * 4.00) + 25
+print(units, cost)
+
+units = 120
+cost = (2.50 * 50) + (3.00 * 50) + (20 * 3.50) + 25
+print(units, cost)
