@@ -24,7 +24,7 @@ class Car:
         """Class method to access class attributes"""
         return cls.vehicle_type
 
-# Creating instances
+# Creating instances # สร้างวัตถุจากคลาส 
 car1 = Car("Toyota", "Camry", 2022)
 car2 = Car("Honda", "Civic", 2021)
 
