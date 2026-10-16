@@ -2,7 +2,11 @@
 numbers = [3, 1, 4, 1, 5, 9, 2, 6, 5]
 fruits = ["apple", "banana", "apple", "orange"]
 
+<<<<<<< HEAD
 # Length and counting ถามจำนวนสมาชิก Len / ถามข้อมูลว่ากี่ตัว ตัวเลขใดตัวเลขหนึ่ง อะไรก็ได้ count 
+=======
+# Length and counting
+>>>>>>> upstream/main
 print(f"Length: {len(numbers)}")           # 9
 print(f"Count of 1: {numbers.count(1)}")   # 2
 print(f"Count of apple: {fruits.count('apple')}")  # 2
@@ -11,7 +15,11 @@ print(f"Count of apple: {fruits.count('apple')}")  # 2
 print(f"Index of 4: {numbers.index(4)}")   # 2
 print(f"Index of banana: {fruits.index('banana')}")  # 1
 
+<<<<<<< HEAD
 # Sorting เรียง น้อยไปมาก มากไปน้อย 
+=======
+# Sorting
+>>>>>>> upstream/main
 numbers_copy = numbers.copy()
 numbers_copy.sort()                         # Sort in place
 print(f"Sorted: {numbers_copy}")           # [1, 1, 2, 3, 4, 5, 5, 6, 9]
@@ -19,8 +27,12 @@ print(f"Sorted: {numbers_copy}")           # [1, 1, 2, 3, 4, 5, 5, 6, 9]
 numbers_copy.sort(reverse=True)             # Sort descending
 print(f"Reverse sorted: {numbers_copy}")   # [9, 6, 5, 5, 4, 3, 2, 1, 1]
 
+<<<<<<< HEAD
 # sorted() function - returns new list 
 
+=======
+# sorted() function - returns new list
+>>>>>>> upstream/main
 sorted_numbers = sorted(numbers)
 print(f"Original: {numbers}")              # [3, 1, 4, 1, 5, 9, 2, 6, 5]
 print(f"New sorted: {sorted_numbers}")     # [1, 1, 2, 3, 4, 5, 5, 6, 9]

@@ -20,7 +20,6 @@ def calculate_circle(radius):
     # Your Problem 2 solution
     pass
 
-
 """ เขียน function ชื่อ create_user_profile ที่มีคุณสมบัติดังนี้:
 
 รับ parameters: username (จำเป็น), age (ค่าเริ่มต้น 18), premium (ค่าเริ่มต้น False)

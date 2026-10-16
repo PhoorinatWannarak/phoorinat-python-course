@@ -6,6 +6,7 @@
 """
 
 class Rectangle:
+
     def __init__(self, length, width):
         self.length = length
         self.width = width
@@ -17,7 +18,6 @@ class Rectangle:
     # Method to get the perimeter
     def get_perimeter(self):
         return 2 * (self.length + self.width)
-
 
 rect = Rectangle(10, 5)
 print(rect.get_area())       # Should print 50

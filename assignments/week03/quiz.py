@@ -9,7 +9,6 @@ age = int(input("Enter age: "))
 
 # Your code here:
 
-
 if age <= 12:
     print("Child")
 elif age <= 19:
@@ -20,10 +19,6 @@ else:
     print("Senior")
 
 print(f"YOUR AGE IS = ", age)
-
-
-
-
 
 
 # Complete this ATM simulation
@@ -57,7 +52,6 @@ if entered_pin == pin:
         elif   choice == "4" :
            break
 
-
-        
+    
 else:
     print("Invalid PIN")

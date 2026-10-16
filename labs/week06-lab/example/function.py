@@ -21,7 +21,11 @@ print()
 # Example 2: Function that performs a task
 def draw_separator():
     """Draws a line separator"""
+<<<<<<< HEAD
     print("-" * 40) 
+=======
+    print("-" * 40)
+>>>>>>> upstream/main
 
 draw_separator()
 print("This is between separators")
@@ -117,6 +121,7 @@ result = multiply(4, 5) + square(3)
 print(f"multiply(4, 5) + square(3) = {multiply(4, 5)} + {square(3)} = {result}")
 print()
 
+<<<<<<< HEAD
 """
 # จงหาผลรันโปรแกรมใน example 3: ด้านบน
 Using return values in expressions:
@@ -124,6 +129,8 @@ multiply(4, 5) + square(3) = 20 + 9 = 29
 
 """
 
+=======
+>>>>>>> upstream/main
 # =============================================================================
 # PART 4: DEFAULT PARAMETERS
 # =============================================================================
